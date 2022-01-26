@@ -1,0 +1,13 @@
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  height: 100vh;
+}
+.container {
+  width: 500px;
+  height: 600px;
+  background-color: tan;
+  padding: 20px;
+}

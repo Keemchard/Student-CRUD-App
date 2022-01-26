@@ -1,0 +1,6 @@
+.container {
+  background-color: wheat;
+  height: 470px;
+  padding: 10px;
+  overflow-y: scroll;
+}

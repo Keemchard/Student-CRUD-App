@@ -1,0 +1,37 @@
+<form class="container" (ngSubmit)="onSubmit()">
+  <div>
+    <label for="task_title">Task Title</label>
+    <input
+      type="text"
+      name="task_title"
+      [(ngModel)]="task_title"
+      id="task_title"
+    />
+  </div>
+  <div>
+    <label for="task_title">Date</label>
+    <input
+      type="text"
+      name="task_date"
+      [(ngModel)]="task_date"
+      id="task_date"
+    />
+  </div>
+  <div>
+    <label for="task_title">Reminder</label>
+    <input
+      type="text"
+      name="task_reminder"
+      [(ngModel)]="task_reminder"
+      id="task_reminder"
+    />
+  </div>
+  <div>
+    <input type="submit" value="Task Submit" id="submit" />
+  </div>
+  <div>
+    <p>TASK TITLE: {{ task_title }}</p>
+    <p>TASK DATE: {{ task_date }}</p>
+    <p>TASK REMINDER: {{ task_reminder }}</p>
+  </div>
+</form>

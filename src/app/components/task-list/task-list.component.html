@@ -1,0 +1,8 @@
+<div class="list-container" *ngFor="let task of taskVariable">
+  <h1>{{ task.task_title }}</h1>
+  <p>{{ task.task_date }}</p>
+  <p>{{ task.task_reminder }}</p>
+  <div>
+    <app-button (btnClick)="DeleteTask(task)" color="red" text="X"></app-button>
+  </div>
+</div>
