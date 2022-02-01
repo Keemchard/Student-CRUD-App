@@ -1,7 +1,7 @@
 .container {
   padding: 15px 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   background-color: wheat;
   margin-bottom: 20px;
