@@ -1,0 +1,46 @@
+.student-container {
+  height: 520px;
+  overflow-y: scroll;
+  padding: 10px;
+}
+
+.list-head {
+  padding: 10px;
+  padding-bottom: 0;
+}
+.list-head > div {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 15px;
+
+  background-color: rgb(49, 49, 49);
+}
+.list-head h2 {
+  width: 100%;
+  margin: 0 5px;
+  text-align: center;
+}
+
+.list {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(49, 49, 49);
+  margin-bottom: 10px;
+}
+.list p {
+  border: 1px solid rgb(93, 91, 91);
+  width: 100%;
+  margin: 0 1px;
+  padding: 10px;
+}
+
+.del-btn button {
+  background-color: orangered;
+  border: 1px solid white;
+  padding: 5px 10px;
+  margin: 0 10px;
+  border-radius: 5px;
+}

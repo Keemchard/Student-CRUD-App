@@ -1,8 +1,17 @@
-.container {
-  padding: 15px 10px;
+.header-container {
+  background-color: rgb(49, 49, 49);
+  padding: 10px;
   display: flex;
-  justify-content: center;
   align-items: center;
-  background-color: wheat;
+  justify-content: space-between;
   margin-bottom: 20px;
+}
+h1 {
+  color: orangered;
+}
+.add-btn {
+  padding: 7px 20px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: orangered;
 }

@@ -1,0 +1,26 @@
+<div class="add-main-con">
+  <div class="add-con">
+    <button class="exit" (click)="exitAddForm()">X</button>
+    <h2>Add Student</h2>
+    <form (ngSubmit)="onSubmit()">
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" name="name" [(ngModel)]="name" id="name" />
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" [(ngModel)]="email" id="email" />
+      </div>
+      <div>
+        <label for="course">Course:</label>
+        <input type="text" name="course" [(ngModel)]="course" id="corse" />
+      </div>
+      <section class="sub">
+        <input type="submit" value="Submit Student" />
+      </section>
+    </form>
+    <!-- <p>{{ name }}</p>
+    <p>{{ email }}</p>
+    <p>{{ course }}</p> -->
+  </div>
+</div>

@@ -1,6 +1,8 @@
 <div class="main-container">
   <div class="container">
     <app-header></app-header>
-    <app-task></app-task>
+    <app-student-list></app-student-list>
   </div>
+
+  <app-add-student (onAddStudent)="addStudent($event)"></app-add-student>
 </div>

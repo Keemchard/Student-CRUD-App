@@ -6,20 +6,11 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
-import { ButtonComponent } from './components/button/button.component';
-import { TaskComponent } from './components/task/task.component';
-import { TaskListComponent } from './components/task-list/task-list.component';
-import { AddTaskComponent } from './components/add-task/add-task.component';
+import { StudentListComponent } from './components/student-list/student-list.component';
+import { AddStudentComponent } from './components/add-student/add-student.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HeaderComponent,
-    ButtonComponent,
-    TaskComponent,
-    TaskListComponent,
-    AddTaskComponent,
-  ],
+  declarations: [AppComponent, HeaderComponent, StudentListComponent, AddStudentComponent],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
